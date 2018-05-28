@@ -1,3 +1,5 @@
+转自 [Tensorflow实现YOLO2](https://zhuanlan.zhihu.com/p/36902889)
+
 # YOLOv2-Tensorflow
 ## 运行环境：<br>
 Python3 + Tensorflow1.5 + OpenCV-python3.3.1 + Numpy1.13<br>
