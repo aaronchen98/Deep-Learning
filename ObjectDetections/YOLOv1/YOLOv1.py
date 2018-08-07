@@ -238,7 +238,7 @@ class Yolo(object):
                         str(w) + ',' + str(h)+',' + str(results[i][5]) + '\n')
         if imshow:
             cv2.imshow('YOLO_small detection', img_cp)
-            cv2.waitKey(1)
+            cv2.waitKey(0)
         if detected_image_file:
             cv2.imwrite(detected_image_file, img_cp)
         if deteted_boxes_file:
@@ -249,4 +249,4 @@ if __name__ == "__main__":
     yolo_net = Yolo(
         "/Users/aaron/Study/机器学习/深度学习/Code/YOLO/yolo/YOLO_small.ckpt")
     yolo_net.detect_from_file(
-        "/Users/aaron/Desktop/u=602336387,1667373954&fm=200&gp=0.jpg")
+        "/Users/aaron/Study/机器学习/Deep-Learning/ObjectDetections/YOLOv2/yolo2_data/car.jpg")
